@@ -6,4 +6,5 @@ user = {
     "address": {"city": "ХЗ", "zip": 0}
 }
 
-print(user)
+for key, value in user.items():
+    print(key, ":", value)
