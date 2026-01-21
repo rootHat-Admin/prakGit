@@ -1,7 +1,8 @@
-let age = 15;
-
-if (age >= 18) {
-    console.log("You are an adult");
-} else {
-    console.log("You are a kid");
+function nameName(name) {
+    return `Hello, ${name}!`;
 }
+
+console.log(nameName("BROO"));
+
+const greet = (name) => `Hello, ${name}!`;
+console.log(greet("Bod"));

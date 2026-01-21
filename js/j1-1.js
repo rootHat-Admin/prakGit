@@ -1,7 +1,7 @@
-let name = "John";
-const age = 25;
-var city = "London";
+let age = 35;
+age = 26;
 
-console.log(name);
-console.log(age);
-console.log(city);
+const name = "ALise";
+
+const person = { name: "Alice" };
+person.name = "Bob";
