@@ -1,0 +1,21 @@
+# Python: Lists & Strings
+
+number = [12, 43, 3, 133]
+number.append(111)
+print(number)
+number.extend([50, 60])
+print(number)
+number.insert(1, 1500)
+print(number)
+number.remove(3)
+print(number)
+number_new = number.pop(3)
+print(number_new)
+position = number.index(12)
+print(position)
+number.append(5)
+print(number)
+number.sort()
+print(number)
+number.reverse()
+print(number)
